@@ -1,6 +1,6 @@
 public class PrincipalPerro{
 	public static void main(String[] args){
-        Otroperro otroPerro = new Otroperro("Toby", "Golden", "Negro");
+        Otroperro otroPerro = new Otroperro("Mario", "Golden", "Negro");
         otroPerro.setEdad(10);
         System.out.println(otroPerro.toString());
 
