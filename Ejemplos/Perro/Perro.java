@@ -3,6 +3,7 @@ public class Perro {
     private String raza;
     private int edad;
     private String color;
+    private boolean sexo;
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -22,6 +23,10 @@ public class Perro {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public void setSexo(boolean sexo) {
+        this.sexo = sexo;
     }
 
     public String toString() {
