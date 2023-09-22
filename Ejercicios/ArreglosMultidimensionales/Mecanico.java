@@ -11,4 +11,8 @@ public class Mecanico {
     public String getNombre() {
         return this.nombre;
     }
+
+    public String getDpi() {
+        return this.dpi;
+    }
 }

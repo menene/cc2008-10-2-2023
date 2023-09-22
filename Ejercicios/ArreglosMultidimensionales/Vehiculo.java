@@ -15,7 +15,11 @@ public class Vehiculo {
     }
 
     public String getNombre() {
-        return this.marca + " (" + this.modelo + ", " + this.anio + ")";
+        return this.marca + " (" + this.modelo + ", " + this.anio + " | " + this.placa + ")";
+    }
+
+    public String getPlaca() {
+        return this.placa;
     }
 
 }
